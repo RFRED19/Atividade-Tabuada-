@@ -1,0 +1,34 @@
+/* Problemática
+
+Tabuada: Escreva um programa em Java que exiba a tabuada de multiplicação do número inteiro 1 até o número inteiro 10.
+*/
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.tabuadabasica;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author rfred
+ */
+public class TabuadaBasica {
+
+    public static void main(String[] args) {
+        //System.out.println("Hello World!");
+        //variaveis
+        int n1;
+       
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Qual tabuda deseja? ");
+        n1 = teclado.nextInt();
+        
+        for (int n = 0; n<=10; n++ ){
+        System.out.println(n1 +"x" + n +"=" +(n1*n));
+    }
+    }
+}
+
